@@ -1,0 +1,45 @@
+:root {
+    --background: #000000;
+    --content-color: 
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+.section-1 {
+    background-color: rgb(190, 51, 212);
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-2 {
+    margin-top: 40px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-4 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.social-icons {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.social-icon {
+    font-size: 24px; 
+    margin: 0 10px;
+    color: var(--background); 
+    filter: invert();
+    text-decoration: none; 
+}
+
