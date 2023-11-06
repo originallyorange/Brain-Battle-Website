@@ -19,6 +19,7 @@
             echo "<script>";
             echo "console.log('User Found - Username: $username');";
             echo "</script>";
+            include '../pages/admin.html';
         } else {
             include '../pages/login.html';
             echo "<script src='../scripts/loginError.js'></script>";
