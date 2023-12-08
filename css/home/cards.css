@@ -1,14 +1,21 @@
 * {box-sizing:border-box}
 
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    height: 600px;  
+    overflow: hidden;
 }
 
 
 .card {
     display: none;
+}
+
+.card img {
+    width: 100%;
 }
 
 .prev, .next {
