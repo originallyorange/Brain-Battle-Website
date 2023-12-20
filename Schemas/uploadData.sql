@@ -1,8 +1,0 @@
-CREATE TABLE UploadedFiles (
-    UploadID INT AUTO_INCREMENT PRIMARY KEY,
-    TextMessage TEXT,
-    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    Note TEXT
-);
-
-
